@@ -1,7 +1,7 @@
 ## Morph-KGC Helm Deployment
 
 ### Overview
-This directory contains Helm charts for deploying Morph-KGC on Kubernetes. 
+This repository contains Helm charts for deploying Morph-KGC on Kubernetes. 
 
 ### Features
 **Flexible Deployment Options:** Choose between deploying with a CronJob at specified intervals or as a one-time deployment. 
