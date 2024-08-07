@@ -2,7 +2,7 @@ name: morph-kgc
 
 morph_kgc_config: config/config.ini
 configmap_config: configmap-config
-configmap_mapping: configmap-mapping
+configmap_mappings: configmap-mappings
 
 image:
   repository: morph-kgc
