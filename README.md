@@ -46,5 +46,5 @@ The configuration includes automatic mounting of files in the container:
 To install Morph-KGC, use the following command:
 
 ```shell
-helm install morph-kgc .
+$ helm install morph-kgc .
 ```
