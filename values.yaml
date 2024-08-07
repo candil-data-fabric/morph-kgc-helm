@@ -7,7 +7,7 @@ configmap_mappings: configmap-mappings
 image:
   repository: morph-kgc
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 cronJob:
   enabled: false
