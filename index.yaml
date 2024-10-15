@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  morph-kgc:
+  - apiVersion: v2
+    appVersion: 2.8.0
+    created: "2024-10-15T10:16:27.544100705Z"
+    description: Morph-KGC - A Helm Chart for Kubernetes
+    digest: b67fafd01a126912aeb9be6e0fa122240581496cb4a2c5fb52659f241e5ce60e
+    name: morph-kgc
+    type: application
+    urls:
+    - https://candil-data-fabric.github.io/morph-kgc-helm/morph-kgc-1.4.0.tgz
+    version: 1.4.0
+generated: "2024-10-15T10:16:27.54319783Z"
