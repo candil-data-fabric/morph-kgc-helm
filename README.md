@@ -1,4 +1,6 @@
-# Morph-KGC Helm Deployment
+# Morph-KGC Helm Chart
+
+## Current version: 1.4.0 (October 15th, 2024).
 
 ## Overview
 This repository contains a Helm Chart for deploying Morph-KGC (tested with v2.8.0) on Kubernetes. 
@@ -43,8 +45,48 @@ The configuration includes automatic mounting of files in the container:
 
 ## Installation
 
-To install Morph-KGC, use the following command:
+### Using the Helm repository hosted in GitHub Pages
 
-```shell
+First, add the Helm repository:
+
+```bash
+$ helm repo add morph-kgc-helm https://candil-data-fabric.github.io/morph-kgc-helm/
+```
+
+Then, install the Helm Chart:
+
+```bash
+$ helm install morph-kgc morph-kgc-helm/morph-kgc
+```
+
+The chart will be installed using the default values. Use the provided [`values.yaml`](values.yaml) file in this repository as template to upgrade the installation with your desired parameters:
+
+```bash
+$ helm upgrade morph-kgc -f myvalues.yaml
+```
+
+To uninstall the Helm Chart, run the following command:
+
+```bash
+$ helm uninstall morph-kgc
+```
+
+### Cloning this repository
+
+First, clone the repository:
+
+```bash
+$ git clone https://github.com/candil-data-fabric/morph-kgc-helm.git
+```
+
+Once cloned, edit the [`values.yaml`](values.yaml) file to match your deployment needs and run the following command:
+
+```bash
 $ helm install morph-kgc .
+```
+
+To uninstall the Helm Chart, run the following command:
+
+```bash
+$ helm uninstall morph-kgc
 ```
