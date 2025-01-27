@@ -1,6 +1,6 @@
 # Morph-KGC Helm Chart
 
-## Current version: 1.4.0 (October 15th, 2024).
+## Current version: 1.5.0 (January 27th, 2025).
 
 ## Overview
 This repository contains a Helm Chart for deploying Morph-KGC (tested with v2.8.0) on Kubernetes. 
